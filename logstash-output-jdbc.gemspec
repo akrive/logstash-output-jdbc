@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'logstash-devutils'
 
   s.requirements << "jar 'com.zaxxer:HikariCP', '2.7.2'"
-  s.requirements << "jar 'org.apache.logging.log4j:log4j-slf4j-impl', '2.6.2'"
+  s.requirements << "jar 'org.apache.logging.log4j:log4j-slf4j-impl', '2.17.0'"
 
   s.add_development_dependency 'jar-dependencies'
   s.add_development_dependency 'ruby-maven', '~> 3.3'
